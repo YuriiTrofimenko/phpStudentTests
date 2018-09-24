@@ -1,0 +1,6 @@
+Смотреть по аналогии в:
+    Миграцию create_categories_table
+    Новая форма указания правил валидации в ActiveRecord и Model
+    Модель формы категории использует внутри модeль ActiveRecord ($model->id стало $model->_category->id)
+    Загрузка и валидация полей формы происходит в методе process()
+    Методы onProcess конкретно по сценариям (onProcessCreate, onProcessUpdate) возвращают true/false, можно генерировать исключение
